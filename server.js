@@ -76,7 +76,8 @@ message.delete().catch(O_o=>{});
   if(command === "space"){
 message.delete().catch(O_o=>{});
  const oldMessage = args.join(" ");
-const a = oldMessage.replace(/a/g, "A    ");
+    const space = oldMessage.replace(/ /g, "   ");
+const a = space.replace(/a/g, "A    ");
 const b = a.replace(/b/g, "B    ");
 const c = b.replace(/c/g, "C    ");
 const d = c.replace(/d/g, "D    ");
@@ -102,8 +103,7 @@ const w = v.replace(/w/g, "W    ");
 const x = w.replace(/x/g, "X    ");
 const y = x.replace(/y/g, "Y    ");
 const z = y.replace(/z/g, "Z    ");
-const space = z.replace(/ /g, "        ");
-message.channel.send(space);
+message.channel.send(z);
 }
 if(command === "dice"){
   const  answers = [
