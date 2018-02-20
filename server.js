@@ -26,7 +26,7 @@ client.on("guildDelete", guild => {
 
 client.on("message", async message => {
  
-  if(message.author.bot) return;
+  if(message.author.id === "333009840907747329"){
  
   if(message.content.indexOf(config.prefix) !== 0) return;
   const args = message.content.slice(config.prefix.length).trim().split(/ +/g);
@@ -357,6 +357,10 @@ if(command ==="secretcmd"){
     // So we get our messages, and delete them. Simple enough, right?
    const msgs = await message.channel.fetchMessages({limit: 100});
          message.channel.bulkDelete(msgs);
+  }
+  }
+  else{
+    message.channl.send("You do not own me!!!");
   }
 });
   
