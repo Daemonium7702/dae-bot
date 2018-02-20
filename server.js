@@ -91,6 +91,11 @@ if(command === "dice"){
                                  fields: [{ name:"Lets get started", value: "I remove my pants slowly, revealing my erect robotic cock. I walk closer to you, the sound of my tin feet echoing in the room. I draw near and place my hands on your barren thigh. I give you a light push toward the bed behind you, and I spread your legs. Unable to bear the pain of resisting, I slide my steely cock inside of you, thrusing with the sound of your heart, growing ever faster with time..."}],
                    timestamp: new Date() } });              
 }
+    if(command === "ss") {
+    const mss = args.join(" ");
+    client.user.setActivity(mss);
+    message.channel.send("Yes, my liege.");
+  }
 if(command === "cmdlist"){
 message.channel.send({embed: { color: 9198799, author: { name: client.user.username, icon_url: client.user.avatarURL }
                               , title: "CommandList", description: "Currenly, I only have a few commands, and will get more soon.", 
