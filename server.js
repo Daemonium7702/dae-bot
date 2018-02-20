@@ -73,6 +73,38 @@ message.delete().catch(O_o=>{});
     const space = z.replace(/ /g, "X");
     message.channel.send(space);
   }
+  if(command === "space"){
+message.delete().catch(O_o=>{});
+ const oldMessage = args.join(" ");
+const a = oldMessage.replace(/a/g, "A    ");
+const b = a.replace(/b/g, "B    ");
+const c = b.replace(/c/g, "C    ");
+const d = c.replace(/d/g, "D    ");
+const e = d.replace(/e/g, "E    ");
+const f = e.replace(/f/g, "F    ");
+const g = f.replace(/g/g, "G    ");
+const h = g.replace(/h/g, "H    ");
+const i = h.replace(/i/g, "I    ");
+const j = i.replace(/j/g, "J    ");
+const k = j.replace(/k/g, "K     ");
+const l = k.replace(/l/g, "L     ");
+const m = l.replace(/m/g, "M    ");
+const n = m.replace(/n/g, "N    ");
+const o = n.replace(/o/g, "O    ");
+const p = o.replace(/p/g, "P    ");
+const q = p.replace(/q/g, "Q    ");
+const r = q.replace(/r/g, "R    ");
+const s = r.replace(/s/g, "S    ");
+const t = s.replace(/t/g, "T    ");
+const u = t.replace(/u/g, "U    ");
+const v = u.replace(/v/g, "V    ");
+const w = v.replace(/w/g, "W    ");
+const x = w.replace(/x/g, "X    ");
+const y = x.replace(/y/g, "Y    ");
+const z = y.replace(/z/g, "Z    ");
+const space = z.replace(/ /g, "        ");
+message.channel.send(space);
+}
 if(command === "dice"){
   const  answers = [
 "You rolled a http://clipart-library.com/images/kTKoqXpzc.png",
