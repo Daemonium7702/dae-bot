@@ -133,17 +133,17 @@ const z = y.replace(/z/g, "Z    ");
 message.channel.send(z);
 }
     
-      if(command === "Echo"){
-       message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-     }
-    
+      if(command === "ms"){
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+    message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+        message.channel.send("<@153178702916616193>");
+      }
 if(command === "dice"){
   const  answers = [
 "You rolled a http://clipart-library.com/images/kTKoqXpzc.png",
