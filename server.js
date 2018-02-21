@@ -41,6 +41,15 @@ client.on("message", async message => {
      message.channel.send("DETECTED");              
      //so just change those to anything I want and it will work, so long as format is same?
   }
+    if(command === "d") {
+       message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+     message.channel.send("//games dice roll 0.1");
+  }
   if(command == "lyonsmorse") {
 message.delete().catch(O_o=>{}); 
     const oldMessage = args.join(" ");    
