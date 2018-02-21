@@ -73,47 +73,38 @@ message.delete().catch(O_o=>{});
     const space = z.replace(/ /g, "X");
     message.channel.send(space);
   }
-     if(command === "Echo"){
-       message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-              message.channel.send("<@153178702916616193>");
-     }
+   
   if(command === "space"){
 message.delete().catch(O_o=>{});
  const oldMessage = args.join(" ");
     const space = oldMessage.replace(/ /g, "   ");
     const aa = space.replace(/A/g, "A    ");
-const bb = a.replace(/B/g, "B    ");
-const cc = b.replace(/C/g, "C    ");
-const dd = c.replace(/D/g, "D    ");
-const ee = d.replace(/E/g, "E    ");
-const ff = e.replace(/F/g, "F    ");
-const gg = f.replace(/G/g, "G    ");
-const hh = g.replace(/H/g, "H    ");
-const ii = h.replace(/I/g, "I    ");
-const jj = i.replace(/J/g, "J    ");
-const kk = j.replace(/K/g, "K     ");
-const ll = k.replace(/L/g, "L     ");
-const mm = l.replace(/M/g, "M    ");
-const nn = m.replace(/N/g, "N    ");
-const oo = n.replace(/O/g, "O    ");
-const pp = o.replace(/P/g, "P    ");
-const qq = p.replace(/Q/g, "Q    ");
-const rr = q.replace(/R/g, "R    ");
-const ss = r.replace(/S/g, "S    ");
-const tt = s.replace(/T/g, "T    ");
-const uu = t.replace(/U/g, "U    ");
-const vv = u.replace(/V/g, "V    ");
-const ww = v.replace(/W/g, "W    ");
-const xx = w.replace(/X/g, "X    ");
-const yy = x.replace(/Y/g, "Y    ");
-const zz = y.replace(/Z/g, "Z    ");
-const a = space.replace(/a/g, "A    ");
+const bb = aa.replace(/B/g, "B    ");
+const cc = bb.replace(/C/g, "C    ");
+const dd = cc.replace(/D/g, "D    ");
+const ee = dd.replace(/E/g, "E    ");
+const ff = ee.replace(/F/g, "F    ");
+const gg = ff.replace(/G/g, "G    ");
+const hh = gg.replace(/H/g, "H    ");
+const ii = hh.replace(/I/g, "I    ");
+const jj = ii.replace(/J/g, "J    ");
+const kk = jj.replace(/K/g, "K     ");
+const ll = kk.replace(/L/g, "L     ");
+const mm = ll.replace(/M/g, "M    ");
+const nn = mm.replace(/N/g, "N    ");
+const oo = nn.replace(/O/g, "O    ");
+const pp = oo.replace(/P/g, "P    ");
+const qq = pp.replace(/Q/g, "Q    ");
+const rr = qq.replace(/R/g, "R    ");
+const ss = rr.replace(/S/g, "S    ");
+const tt = ss.replace(/T/g, "T    ");
+const uu = tt.replace(/U/g, "U    ");
+const vv = uu.replace(/V/g, "V    ");
+const ww = vv.replace(/W/g, "W    ");
+const xx = ww.replace(/X/g, "X    ");
+const yy = xx.replace(/Y/g, "Y    ");
+const zz = yy.replace(/Z/g, "Z    ");
+const a = zz.replace(/a/g, "A    ");
 const b = a.replace(/b/g, "B    ");
 const c = b.replace(/c/g, "C    ");
 const d = c.replace(/d/g, "D    ");
@@ -141,6 +132,18 @@ const y = x.replace(/y/g, "Y    ");
 const z = y.replace(/z/g, "Z    ");
 message.channel.send(z);
 }
+    
+      if(command === "Echo"){
+       message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+     }
+    
 if(command === "dice"){
   const  answers = [
 "You rolled a http://clipart-library.com/images/kTKoqXpzc.png",
