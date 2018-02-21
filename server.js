@@ -74,19 +74,15 @@ message.delete().catch(O_o=>{});
     message.channel.send(space);
   }
      if(command === "Echo"){
-    const sayMessage = args.join(" ");
-    message.channel.send(sayMessage); 
-     message.channel.send(sayMessage);
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage);  
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage); 
-     message.channel.send(sayMessage);
-  }
+       message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+              message.channel.send("<@153178702916616193>");
+     }
   if(command === "space"){
 message.delete().catch(O_o=>{});
  const oldMessage = args.join(" ");
