@@ -221,10 +221,7 @@ message.channel.send({embed: { color: 9198799, author: { name: client.user.usern
                               fields: [{ name: "notes", value: "All secret commands, when discovered, will make solving this puzzle much ***MUCH*** easier. The first person to figure out what they are, may choose to keep them secret, or reveal them for all to see. Good Luck! *You're going to need it.*"}],
                               timestamp: new Date(), footer: { icon_url: client.user.avatarURL, text: "© DeathBot" } } });
 }
-  if(command === "ping") {
-    const m = await message.channel.send("Ping?");
-    m.edit(`Pong! Latency is ${m.createdTimestamp - message.createdTimestamp}ms. API Latency is ${Math.round(client.ping)}ms`)
-}
+ 
     if(command == "invitemepls") {
     return message.reply({embed: {color: 9198700, author: {name: client.user.username, icon_url: client.user.avatarURL }
                                   , title: "invite", description: "Invites to the bot and the server.",
