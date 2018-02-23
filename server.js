@@ -41,6 +41,31 @@ client.on("message", async message => {
      message.channel.send("DETECTED");              
      //so just change those to anything I want and it will work, so long as format is same?
   }
+    if(command === "ping"){
+  const m = await message.channel.send("Ping?");
+const answers = [
+ "**A porta potty in the Sajara Desert**",
+      "**Utopia**",
+      "**Bugs Bunny's Rabbit Hole**",
+      "**My moms basement**",
+      "**NASA's private server**",
+      "**Santa's sleigh**",
+    "**That thugs wallet**",
+  "**The White House**",
+  ]
+const namaste = [
+ "**A dog**",
+      "**Jeff**",
+      "**A ••••• wit a rocket launcha**",
+      "**The lost land of Atlantis**",
+      "**That one guy**",
+      "**My money",
+  ]
+ const randomAnswer = answers[Math.floor(Math.random() * answers.length)];
+const randomNamaste = namaste[Math.floor(Math.random() * answers.length)];
+ m.edit(`Pong! It took ${m.createdTimestamp - message.createdTimestamp}ms to find ${randomNamaste} in ${randomAnswer} after ${Math.round(client.ping)} counts of felony!!`)
+
+}
     if(command === "d") {
       message.delete().catch(O_o=>{}); 
        message.channel.send("//games dice roll 0.1");
