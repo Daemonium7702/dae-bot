@@ -334,38 +334,39 @@ message.channel.send({embed: { color: 9198799, author: { name: client.user.usern
 if(command ==="secretcmd"){
   message.channel.send("no easy way out");
 }
-  if(command == "lyon1") {
+  if(command == "Lyonary") {
     const oldMessage = args.join(" ");
       message.delete().catch(O_o=>{}); 
-    const a = oldMessage.replace(/z/g, "ab");
-     const b = a.replace(/y/g, "za");
-     const c = b.replace(/x/g, "yz");
-     const  d = c.replace(/w/g, "xy");
-     const  e = d.replace(/v/g, "wx");
-     const f = e.replace(/u/g, "vw");
-     const  g = f.replace(/t/g, "uv");
-     const  h = g.replace(/s/g, "tu");
-       const i = h.replace(/r/g, "st");
-     const  j = i.replace(/q/g, "rs");
-     const  k = j.replace(/p/g, "qr");
-     const  l = k.replace(/o/g, "pq");
-    const m = l.replace(/n/g, "op");
-    const n = m.replace(/m/g, "no");
-    const  o = n.replace(/l/g, "mn");
-    const  p = o.replace(/k/g, "lm");
-    const q = p.replace(/j/g, "kl");
-    const  r = q.replace(/i/g, "jk");
-    const s = r.replace(/h/g, "ij");
-    const  t = s.replace(/g/g, "hi");
-    const  u = t.replace(/f/g, "gh");
-    const  v = u.replace(/e/g, "fg");
-    const  w = v.replace(/d/g, "ef");
-    const x = w.replace(/c/g, "de");
-    const y = x.replace(/b/g, "cd");
-    const z = y.replace(/a/g, "bc");
+    const a = oldMessage.replace(/z/g, "1");
+     const b = a.replace(/y/g, "2");
+     const c = b.replace(/x/g, "3");
+     const  d = c.replace(/w/g, "4");
+     const  e = d.replace(/v/g, "5");
+     const f = e.replace(/u/g, "6");
+     const  g = f.replace(/t/g, "7");
+     const  h = g.replace(/s/g, "8");
+       const i = h.replace(/r/g, "9");
+     const  j = i.replace(/q/g, "10");
+     const  k = j.replace(/p/g, "11");
+     const  l = k.replace(/o/g, "12");
+    const m = l.replace(/n/g, "13");
+    const n = m.replace(/m/g, "14");
+    const  o = n.replace(/l/g, "15");
+    const  p = o.replace(/k/g, "16");
+    const q = p.replace(/j/g, "17");
+    const  r = q.replace(/i/g, "18");
+    const s = r.replace(/h/g, "19");
+    const  t = s.replace(/g/g, "20");
+    const  u = t.replace(/f/g, "21");
+    const  v = u.replace(/e/g, "22");
+    const  w = v.replace(/d/g, "23");
+    const x = w.replace(/c/g, "24");
+    const y = x.replace(/b/g, "25");
+    const z = y.replace(/a/g, "26");
     message.channel.send(z);
-    message.channel.send("this is the lyonsCipher");
+    message.channel.send("translation complete");
   }
+    
    if(command == "morse") {
     const oldMessage = args.join(" ");
        message.delete().catch(O_o=>{}); 
