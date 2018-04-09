@@ -334,7 +334,6 @@ message.channel.send({embed: { color: 9198799, author: { name: client.user.usern
 if(command ==="secretcmd"){
   message.channel.send("no easy way out");
 }
-  if(command == "Lyonary") {
     const oldMessage = args.join(" ");
       message.delete().catch(O_o=>{}); 
     const a = oldMessage.replace(/z/g, "1");
@@ -366,7 +365,6 @@ if(command ==="secretcmd"){
     message.channel.send(z);
     message.channel.send("translation complete");
   }
-    
    if(command == "morse") {
     const oldMessage = args.join(" ");
        message.delete().catch(O_o=>{}); 
